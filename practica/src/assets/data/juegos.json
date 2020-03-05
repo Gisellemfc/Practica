@@ -1,0 +1,73 @@
+[{
+        "id": "1",
+        "titulo": "THE LAST OF US PART II PS4",
+        "stock": "30",
+        "url": "the-last-of-us-part-ii-ps4",
+        "img": "https://gameplanet-53f8.kxcdn.com/media/catalog/product/cache/4/image/9df78eab33525d08d6e5fb8d27136e95/t/h/the-last-of-us-cover.jpg",
+        "fecha": "2020-06-17 15:56:23"
+    },
+    {
+        "id": "2",
+        "nombre": "FIFA 20 PS4",
+        "stock": "40",
+        "url": "fifa-20-ps4",
+        "img": "https://gameplanet-53f8.kxcdn.com/media/catalog/product/cache/4/image/9df78eab33525d08d6e5fb8d27136e95/f/i/fifa-20-ps4_2_1.jpg",
+        "fecha": "2019-08-11 16:25:33"
+    },
+    {
+        "id": "3",
+        "nombre": "ANIMAL CROSSING NEW HORIZONS NINTENDO SWITCH",
+        "stock": "35",
+        "url": "animal-crossing-new-horizons-ns",
+        "img": "https://gameplanet-53f8.kxcdn.com/media/catalog/product/cache/4/image/9df78eab33525d08d6e5fb8d27136e95/a/n/animal-crossing-nsw_1_1.jpg",
+        "fecha": "2020-08-11 16:25:36"
+    },
+    {
+        "id": "4",
+        "nombre": "JUST DANCE 2020 NINTENDO SWITCH",
+        "stock": "60",
+        "url": "just-dance-2020-ns",
+        "img": "https://gameplanet-53f8.kxcdn.com/media/catalog/product/cache/4/image/9df78eab33525d08d6e5fb8d27136e95/j/u/just-dance-2020-nsw.jpg",
+        "fecha": "2019-08-11 16:25:39"
+    },
+    {
+        "id": "5",
+        "nombre": "MARIO KART 8 DELUXE NINTENDO SWITCH",
+        "stock": "25",
+        "url": "mario-kart-8-deluxe-ns",
+        "img": "https://gameplanet-53f8.kxcdn.com/media/catalog/product/cache/4/image/9df78eab33525d08d6e5fb8d27136e95/m/a/mario_kart_8_deluxe_nsw_3.jpg",
+        "fecha": "2019-06-17 15:58:43"
+    },
+    {
+        "id": "6",
+        "nombre": "UNCHARTED 4 A THIEFS END PS4",
+        "stock": "50",
+        "url": "uncharted-4-a-thiefs-end-ps4",
+        "img": "https://gameplanet-53f8.kxcdn.com/media/catalog/product/cache/4/image/9df78eab33525d08d6e5fb8d27136e95/u/n/uncharted-4-a-thiefs-end-playstation-hits.jpg",
+        "fecha": "2020-08-11 16:25:45"
+    },
+    {
+        "id": "7",
+        "nombre": "CALL OF DUTY INFINITE WARFARE LEGACY EDITION PS4",
+        "stock": "25",
+        "url": "cod-infinite-warfare-legacy-edition-ps4",
+        "img": "https://gameplanet-53f8.kxcdn.com/media/catalog/product/cache/4/image/9df78eab33525d08d6e5fb8d27136e95/c/a/call-of-duty-legacy-edition_2_1.jpg",
+        "fecha": "2019-06-17 15:58:43"
+    },
+    {
+        "id": "8",
+        "nombre": "CALL OF DUTY BLACK OPS III ZOMBIES PS4",
+        "stock": "20",
+        "url": "cod-black-ops-iii-zombies-ps4",
+        "img": "https://gameplanet-53f8.kxcdn.com/media/catalog/product/cache/4/image/9df78eab33525d08d6e5fb8d27136e95/c/a/call-of-duty-black-ops-3-zombies-caja_2_1_1.jpg",
+        "fecha": "2019-06-17 15:58:43"
+    },
+    {
+        "id": "9",
+        "nombre": "THE LEGEND OF ZELDA LINKS AWAKENING NINTENDO SWITCH",
+        "stock": "30",
+        "url": "the-leyend-of-zelda-links-awakening-ns",
+        "img": "https://gameplanet-53f8.kxcdn.com/media/catalog/product/cache/4/image/9df78eab33525d08d6e5fb8d27136e95/t/h/the_legend_of_zelda_links_awakening.jpg",
+        "fecha": "2020-06-17 15:58:43"
+    }
+]
