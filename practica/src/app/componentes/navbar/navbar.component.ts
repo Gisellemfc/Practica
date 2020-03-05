@@ -7,6 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
+  navbar = [
+    {nombre: 'Cartelera', url: 'home'},
+    {nombre: 'Próximos Estrenos', url: 'proximos-estrenos'},
+    {nombre: 'Admin', url: 'admin'}
+  ];
+
   constructor() { }
 
   ngOnInit(): void {
