@@ -7,8 +7,13 @@
                 </div>
                 <div class="card-body">
                     <h5 class="card-title text-center">{{ juego.titulo }}</h5>
-                    <p class="card-text">{{ juego.stock }}</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <h6 class="d-inline">Género: </h6>
+                    <p class="card-text d-inline">{{ juego.genero }}</p>
+                    <span class="d-block"></span>
+                    <h6 class="d-inline">Idioma: </h6>
+                    <p class="card-text d-inline">{{ juego.idioma }}</p>
+                    <span class="d-block"></span>
+                    <a [routerLink]="['vista-detalle/' + juego.id]" class="btn btn-primary mt-3 d-block">VER INFORMACIÓN</a>
                 </div>
             </div>
         </div>
