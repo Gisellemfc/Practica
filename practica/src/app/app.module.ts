@@ -10,7 +10,7 @@ import { VistaDetalleComponent } from './componentes/vista-detalle/vista-detalle
 import { BotonCompraComponent } from './componentes/boton-compra/boton-compra.component';
 import { ReservacionComponent } from './componentes/reservacion/reservacion.component';
 import { AdminComponent } from './componentes/admin/admin.component';
-import { ProximosEstrenosComponent } from './components/proximos-estrenos/proximos-estrenos.component';
+import { ProximosEstrenosComponent } from './componentes/proximos-estrenos/proximos-estrenos.component';
 
 @NgModule({
   declarations: [
