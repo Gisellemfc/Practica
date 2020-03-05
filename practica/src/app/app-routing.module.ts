@@ -3,6 +3,7 @@ import { HomeComponent } from './componentes/home/home.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { AdminComponent } from './componentes/admin/admin.component';
+import { VistaDetalleComponent } from './componentes/vista-detalle/vista-detalle.component';
 
 
 const routes: Routes = [
@@ -22,6 +23,10 @@ const routes: Routes = [
   {
     path: 'admin',
     component: AdminComponent
+  },
+  {
+    path: 'home/vista-detalle/:id',
+    component: VistaDetalleComponent
   }
 ];
 
