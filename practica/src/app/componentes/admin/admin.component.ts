@@ -1,3 +1,4 @@
+import { FirestoreService } from './../../services/firestore.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,9 +8,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AdminComponent implements OnInit {
 
-  constructor() { }
+  reservas: any[];
+
+  constructor(private firestore: FirestoreService) {
+    this.firestore.getAll().subscribe((comprasSnapshot) => {
+      this.reservas = [];
+      comprasSnapshot.forEach((compraData: any) => {
+        this.reservas.push({
+          id: compraData.payload.doc.id,
+          data: compraData.payload.doc.data()
+        });
+      });
+    });
+  }
 
   ngOnInit(): void {
+
   }
 
 }
