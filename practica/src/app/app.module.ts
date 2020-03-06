@@ -10,7 +10,7 @@ import { BotonCompraComponent } from './componentes/boton-compra/boton-compra.co
 import { ReservacionComponent } from './componentes/reservacion/reservacion.component';
 import { AdminComponent } from './componentes/admin/admin.component';
 import { ProximosEstrenosComponent } from './componentes/proximos-estrenos/proximos-estrenos.component';
-import { ReactiveFormsModule } from '@angular/forms';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { FiltroPipe } from './pipes/filtro.pipe';
 @NgModule({
   declarations: [
@@ -27,7 +27,8 @@ import { FiltroPipe } from './pipes/filtro.pipe';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
