@@ -12,6 +12,10 @@ import { AdminComponent } from './componentes/admin/admin.component';
 import { ProximosEstrenosComponent } from './componentes/proximos-estrenos/proximos-estrenos.component';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { FiltroPipe } from './pipes/filtro.pipe';
+
+import { AngularFireModule } from '@angular/fire';
+import { environment } from '../environments/environment';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,7 +32,8 @@ import { FiltroPipe } from './pipes/filtro.pipe';
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
+    AngularFireModule.initializeApp(environment.firebase)
   ],
   providers: [],
   bootstrap: [AppComponent]
