@@ -30,7 +30,7 @@ const routes: Routes = [
     component: VistaDetalleComponent
   },
   {
-    path: 'comprar',
+    path: 'comprar/:id',
     component: ReservacionComponent
   }
 ];
