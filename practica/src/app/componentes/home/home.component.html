@@ -1,6 +1,17 @@
 <div class="container-fluid ">
+    <div class="row d-flex">
+        <div class="col-12 col-sm-7 justify-content-center">
+            <h3>BIENVENIDOS A ZP GAMES</h3>
+        </div>
+        <div class="col-12 col-sm-5">
+            <div class="form-inline float-sm-right justify-content-center">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">B</button>
+            </div>
+        </div>
+    </div>
     <div class="row justify-content-between">
-        <div class="col-12 col-md-6 col-lg-4 mb-4" *ngFor="let juego of listaJuegos">
+        <div class="col-12 col-md-6 col-lg-4 mb-4" *ngFor="let juego of listaJuegos | filtro: filtroJuego">
             <div class="card h-100" style="width: 18rem;">
                 <div class="m-auto">
                     <img [src]=juego.img class="card-img-top img-fluid mt-3" alt="..." [routerLink]="['vista-detalle/' + juego.id]">
