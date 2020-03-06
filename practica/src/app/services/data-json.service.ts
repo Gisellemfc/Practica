@@ -1,3 +1,4 @@
+import { Juego } from './../model/juego';
 import juegos from 'src/assets/data/juegos.json';
 import { Injectable } from '@angular/core';
 
@@ -6,7 +7,7 @@ import { Injectable } from '@angular/core';
 })
 export class DataJsonService {
 
-  listaJuegos: any[] = juegos;
+  listaJuegos: Juego[] = juegos;
 
   constructor() { }
 
