@@ -1,1 +1,21 @@
-<p>proximos-estrenos works!</p>
+<div class="container-fluid ">
+    <div class="row justify-content-between">
+        <div class="col-12 col-md-6 col-lg-4 mb-4" *ngFor="let juego of proximas">
+            <div class="card h-100" style="width: 18rem;">
+                <div class="m-auto">
+                    <img [src]=juego.img class="imagen card-img-top img-fluid mt-3" alt="..." [routerLink]="['/home/vista-detalle/' + juego.id]">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title text-center">{{ juego.titulo }}</h5>
+                    <h6 class="d-inline">Género: </h6>
+                    <p class="card-text d-inline">{{ juego.genero }}</p>
+                    <span class="d-block"></span>
+                    <h6 class="d-inline">Idioma: </h6>
+                    <p class="card-text d-inline">{{ juego.idioma }}</p>
+                    <span class="d-block"></span>
+                    <a [routerLink]="['/home/vista-detalle/' + juego.id]" class="btn btn-primary mt-3 d-block">VER INFORMACIÓN</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
