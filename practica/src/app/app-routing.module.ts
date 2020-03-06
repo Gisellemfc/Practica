@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { AdminComponent } from './componentes/admin/admin.component';
 import { VistaDetalleComponent } from './componentes/vista-detalle/vista-detalle.component';
+import { ReservacionComponent } from './componentes/reservacion/reservacion.component';
 
 
 const routes: Routes = [
@@ -27,6 +28,10 @@ const routes: Routes = [
   {
     path: 'home/vista-detalle/:id',
     component: VistaDetalleComponent
+  },
+  {
+    path: 'comprar',
+    component: ReservacionComponent
   }
 ];
 
